@@ -1,0 +1,1 @@
+from https://github.com/mmcloughlin/starbucks which is based on https://opendata.socrata.com/Business/All-Starbucks-Locations-in-the-World/xy4y-c4mk

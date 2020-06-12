@@ -1,0 +1,991 @@
+{
+	"requestParameters": {
+		"date": "2018-12-03",
+		"mode": "TRANSIT,WALK",
+		"wheelchair": "False",
+		"arriveBy": "False",
+		"fromPlace": "55.90909,-3.31984",
+		"toPlace": "55.96309,-3.23389",
+		"time": "08:00:00",
+		"maxWalkDistance": "800"
+	},
+	"plan": {
+		"date": 1543824000000,
+		"from": {
+			"name": "Origin",
+			"lon": -3.31984,
+			"lat": 55.90909,
+			"orig": "",
+			"vertexType": "NORMAL"
+		},
+		"to": {
+			"name": "Destination",
+			"lon": -3.23389,
+			"lat": 55.96309,
+			"orig": "",
+			"vertexType": "NORMAL"
+		},
+		"itineraries": [{
+			"duration": 3135,
+			"startTime": 1543824473000,
+			"endTime": 1543827608000,
+			"walkTime": 261,
+			"transitTime": 2820,
+			"waitingTime": 54,
+			"walkDistance": 319.926902253674,
+			"walkLimitExceeded": false,
+			"elevationLost": 0.0,
+			"elevationGained": 2.0,
+			"transfers": 1,
+			"legs": [{
+				"startTime": 1543824473000,
+				"endTime": 1543824479000,
+				"departureDelay": 0,
+				"arrivalDelay": 0,
+				"realTime": false,
+				"distance": 7.558,
+				"pathway": false,
+				"mode": "WALK",
+				"route": "",
+				"agencyTimeZoneOffset": 0,
+				"interlineWithPreviousLeg": false,
+				"from": {
+					"name": "Origin",
+					"lon": -3.31984,
+					"lat": 55.90909,
+					"departure": 1543824473000,
+					"orig": "",
+					"vertexType": "NORMAL"
+				},
+				"to": {
+					"name": "Heriot Watt Campus",
+					"stopId": "1:6200200260",
+					"stopCode": "36234874",
+					"lon": -3.31982,
+					"lat": 55.909012,
+					"arrival": 1543824479000,
+					"departure": 1543824480000,
+					"stopIndex": 0,
+					"stopSequence": 0,
+					"vertexType": "TRANSIT"
+				},
+				"legGeometry": {
+					"points": "wvftI|kgSD?BG",
+					"length": 3
+				},
+				"rentedBike": false,
+				"transitLeg": false,
+				"duration": 6.0,
+				"steps": [{
+					"distance": 7.558,
+					"relativeDirection": "DEPART",
+					"streetName": "The Avenue",
+					"absoluteDirection": "SOUTH",
+					"stayOn": false,
+					"area": false,
+					"bogusName": false,
+					"lon": -3.3198252709572924,
+					"lat": 55.9090899004859,
+					"elevation": []
+				}]
+			}, {
+				"startTime": 1543824480000,
+				"endTime": 1543826820000,
+				"departureDelay": 0,
+				"arrivalDelay": 0,
+				"realTime": false,
+				"distance": 8629.793599739505,
+				"pathway": false,
+				"mode": "BUS",
+				"route": "25",
+				"agencyName": "Lothian Buses",
+				"agencyUrl": "https://lothianbuses.co.uk",
+				"agencyTimeZoneOffset": 0,
+				"routeColor": "912690",
+				"routeType": 3,
+				"routeId": "1:9748",
+				"routeTextColor": "FFFFFF",
+				"interlineWithPreviousLeg": false,
+				"headsign": "Restalrig",
+				"agencyId": "OP776",
+				"tripId": "1:VJ8181966ca170f6c376764b024a53084d1079791a",
+				"serviceDate": "20181203",
+				"from": {
+					"name": "Heriot Watt Campus",
+					"stopId": "1:6200200260",
+					"stopCode": "36234874",
+					"lon": -3.31982,
+					"lat": 55.909012,
+					"arrival": 1543824479000,
+					"departure": 1543824480000,
+					"stopIndex": 0,
+					"stopSequence": 0,
+					"vertexType": "TRANSIT"
+				},
+				"to": {
+					"name": "Shandwick Place (Stop SB)",
+					"stopId": "1:6200202970",
+					"stopCode": "36236572",
+					"lon": -3.209555,
+					"lat": 55.949638,
+					"arrival": 1543826820000,
+					"departure": 1543826820000,
+					"stopIndex": 24,
+					"stopSequence": 24,
+					"vertexType": "TRANSIT"
+				},
+				"legGeometry": {
+					"points": "ivftIzkgSyFeMck@}TiYeoBiFqd@aCo\\eE{c@yCqS}Iml@yIwT}EkZ[oTyKik@wDiR_HoQ{LyXyCq^yEi[uBgNgDkO_JsNkKmSwKeOqGaI_Poe@",
+					"length": 25
+				},
+				"routeShortName": "25",
+				"routeLongName": "Craigentinny - Riccarton",
+				"rentedBike": false,
+				"transitLeg": true,
+				"duration": 2340.0,
+				"steps": []
+			}, {
+				"startTime": 1543826820000,
+				"endTime": 1543826948000,
+				"departureDelay": 0,
+				"arrivalDelay": 0,
+				"realTime": false,
+				"distance": 166.604,
+				"pathway": false,
+				"mode": "WALK",
+				"route": "",
+				"agencyTimeZoneOffset": 0,
+				"interlineWithPreviousLeg": false,
+				"from": {
+					"name": "Shandwick Place (Stop SB)",
+					"stopId": "1:6200202970",
+					"stopCode": "36236572",
+					"lon": -3.209555,
+					"lat": 55.949638,
+					"arrival": 1543826820000,
+					"departure": 1543826820000,
+					"stopIndex": 24,
+					"stopSequence": 24,
+					"vertexType": "TRANSIT"
+				},
+				"to": {
+					"name": "Queensferry Street (Stop QD)",
+					"stopId": "1:6200244750",
+					"stopCode": "36245986",
+					"lon": -3.20897,
+					"lat": 55.950417,
+					"arrival": 1543826948000,
+					"departure": 1543827000000,
+					"stopIndex": 65,
+					"stopSequence": 65,
+					"vertexType": "TRANSIT"
+				},
+				"legGeometry": {
+					"points": "ysntIfzqRGQQg@Qi@CE?Cc@qAEKEGCGEMCIAKAGAGADCFEPQf@Wv@KV",
+					"length": 21
+				},
+				"rentedBike": false,
+				"transitLeg": false,
+				"duration": 128.0,
+				"steps": [{
+					"distance": 106.603,
+					"relativeDirection": "DEPART",
+					"streetName": "Shandwick Place",
+					"absoluteDirection": "NORTHEAST",
+					"stayOn": false,
+					"area": false,
+					"bogusName": false,
+					"lon": -3.2094710119058254,
+					"lat": 55.949579431522196,
+					"elevation": [{
+						"first": 122.34,
+						"second": 70.0
+					}, {
+						"first": 132.34,
+						"second": 70.0
+					}, {
+						"first": 142.34,
+						"second": 70.0
+					}, {
+						"first": 148.52,
+						"second": 70.0
+					}]
+				}, {
+					"distance": 60.001000000000005,
+					"relativeDirection": "HARD_LEFT",
+					"streetName": "Queensferry Street",
+					"absoluteDirection": "NORTHWEST",
+					"stayOn": false,
+					"area": false,
+					"bogusName": false,
+					"lon": -3.208111,
+					"lat": 55.9501551,
+					"elevation": [{
+						"first": 0.0,
+						"second": 70.0
+					}, {
+						"first": 5.45,
+						"second": 70.0
+					}, {
+						"first": 5.447,
+						"second": 70.0
+					}, {
+						"first": 12.457,
+						"second": 70.0
+					}, {
+						"first": 12.455,
+						"second": 70.0
+					}, {
+						"first": 22.455,
+						"second": 70.0
+					}, {
+						"first": 27.855,
+						"second": 70.0
+					}]
+				}]
+			}, {
+				"startTime": 1543827000000,
+				"endTime": 1543827480000,
+				"departureDelay": 0,
+				"arrivalDelay": 0,
+				"realTime": false,
+				"distance": 2101.5120225884,
+				"pathway": false,
+				"mode": "BUS",
+				"route": "47",
+				"agencyName": "Lothian Buses",
+				"agencyUrl": "https://lothianbuses.co.uk",
+				"agencyTimeZoneOffset": 0,
+				"routeColor": "6B93BA",
+				"routeType": 3,
+				"routeId": "1:13597",
+				"routeTextColor": "FFFFFF",
+				"interlineWithPreviousLeg": false,
+				"headsign": "Granton Harbour",
+				"agencyId": "OP776",
+				"tripId": "1:VJ52a6ec37fa1934904e79f3fd8bda939146259d6f",
+				"serviceDate": "20181203",
+				"from": {
+					"name": "Queensferry Street (Stop QD)",
+					"stopId": "1:6200244750",
+					"stopCode": "36245986",
+					"lon": -3.20897,
+					"lat": 55.950417,
+					"arrival": 1543826948000,
+					"departure": 1543827000000,
+					"stopIndex": 65,
+					"stopSequence": 65,
+					"vertexType": "TRANSIT"
+				},
+				"to": {
+					"name": "West Woods",
+					"stopId": "1:6200245280",
+					"stopCode": "36232876",
+					"lon": -3.232458,
+					"lat": 55.963364,
+					"arrival": 1543827480000,
+					"departure": 1543827481000,
+					"stopIndex": 72,
+					"stopSequence": 72,
+					"vertexType": "TRANSIT"
+				},
+				"legGeometry": {
+					"points": "ayntI`wqRcFtQkP|T{CnWuOpd@{L|QwJzNgHhH",
+					"length": 8
+				},
+				"routeShortName": "47",
+				"routeLongName": "Ladywood - Granton Harbour",
+				"rentedBike": false,
+				"transitLeg": true,
+				"duration": 480.0,
+				"steps": []
+			}, {
+				"startTime": 1543827481000,
+				"endTime": 1543827608000,
+				"departureDelay": 0,
+				"arrivalDelay": 0,
+				"realTime": false,
+				"distance": 145.70399999999998,
+				"pathway": false,
+				"mode": "WALK",
+				"route": "",
+				"agencyTimeZoneOffset": 0,
+				"interlineWithPreviousLeg": false,
+				"from": {
+					"name": "West Woods",
+					"stopId": "1:6200245280",
+					"stopCode": "36232876",
+					"lon": -3.232458,
+					"lat": 55.963364,
+					"arrival": 1543827480000,
+					"departure": 1543827481000,
+					"stopIndex": 72,
+					"stopSequence": 72,
+					"vertexType": "TRANSIT"
+				},
+				"to": {
+					"name": "Destination",
+					"lon": -3.23389,
+					"lat": 55.96309,
+					"arrival": 1543827608000,
+					"orig": "",
+					"vertexType": "NORMAL"
+				},
+				"legGeometry": {
+					"points": "ejqtI`ivRg@`@Hp@Bn@PxBB`@@L?@HDNAFALELC",
+					"length": 13
+				},
+				"rentedBike": false,
+				"transitLeg": false,
+				"duration": 127.0,
+				"steps": [{
+					"distance": 24.014,
+					"relativeDirection": "DEPART",
+					"streetName": "Crewe Road South",
+					"absoluteDirection": "NORTHWEST",
+					"stayOn": false,
+					"area": false,
+					"bogusName": false,
+					"lon": -3.2323282226146492,
+					"lat": 55.96339770059653,
+					"elevation": []
+				}, {
+					"distance": 121.68999999999998,
+					"relativeDirection": "LEFT",
+					"streetName": "service road",
+					"absoluteDirection": "WEST",
+					"stayOn": false,
+					"area": false,
+					"bogusName": true,
+					"lon": -3.2324906,
+					"lat": 55.9635936,
+					"elevation": [{
+						"first": 0.0,
+						"second": 38.0
+					}, {
+						"first": 10.0,
+						"second": 38.26
+					}, {
+						"first": 20.0,
+						"second": 38.75
+					}, {
+						"first": 31.85,
+						"second": 38.96
+					}, {
+						"first": 31.851,
+						"second": 38.96
+					}, {
+						"first": 41.851,
+						"second": 39.0
+					}, {
+						"first": 51.851,
+						"second": 39.0
+					}, {
+						"first": 61.851,
+						"second": 39.15
+					}, {
+						"first": 71.11099999999999,
+						"second": 39.83
+					}, {
+						"first": 71.11500000000001,
+						"second": 39.83
+					}, {
+						"first": 82.135,
+						"second": 40.0
+					}, {
+						"first": 82.138,
+						"second": 40.0
+					}, {
+						"first": 86.128,
+						"second": 40.0
+					}, {
+						"first": 86.129,
+						"second": 40.0
+					}, {
+						"first": 87.32900000000001,
+						"second": 40.0
+					}]
+				}]
+			}],
+			"tooSloped": false
+		}, {
+			"duration": 3200,
+			"startTime": 1543825073000,
+			"endTime": 1543828273000,
+			"walkTime": 39,
+			"transitTime": 3120,
+			"waitingTime": 41,
+			"walkDistance": 48.65,
+			"walkLimitExceeded": false,
+			"elevationLost": 0.0,
+			"elevationGained": 0.0,
+			"transfers": 1,
+			"legs": [{
+				"startTime": 1543825073000,
+				"endTime": 1543825079000,
+				"departureDelay": 0,
+				"arrivalDelay": 0,
+				"realTime": false,
+				"distance": 7.558,
+				"pathway": false,
+				"mode": "WALK",
+				"route": "",
+				"agencyTimeZoneOffset": 0,
+				"interlineWithPreviousLeg": false,
+				"from": {
+					"name": "Origin",
+					"lon": -3.31984,
+					"lat": 55.90909,
+					"departure": 1543825073000,
+					"orig": "",
+					"vertexType": "NORMAL"
+				},
+				"to": {
+					"name": "Heriot Watt Campus",
+					"stopId": "1:6200200260",
+					"stopCode": "36234874",
+					"lon": -3.31982,
+					"lat": 55.909012,
+					"arrival": 1543825079000,
+					"departure": 1543825080000,
+					"stopIndex": 0,
+					"stopSequence": 0,
+					"vertexType": "TRANSIT"
+				},
+				"legGeometry": {
+					"points": "wvftI|kgSD?BG",
+					"length": 3
+				},
+				"rentedBike": false,
+				"transitLeg": false,
+				"duration": 6.0,
+				"steps": [{
+					"distance": 7.558,
+					"relativeDirection": "DEPART",
+					"streetName": "The Avenue",
+					"absoluteDirection": "SOUTH",
+					"stayOn": false,
+					"area": false,
+					"bogusName": false,
+					"lon": -3.3198252709572924,
+					"lat": 55.9090899004859,
+					"elevation": []
+				}]
+			}, {
+				"startTime": 1543825080000,
+				"endTime": 1543826520000,
+				"departureDelay": 0,
+				"arrivalDelay": 0,
+				"realTime": false,
+				"distance": 5787.75990389384,
+				"pathway": false,
+				"mode": "BUS",
+				"route": "25",
+				"agencyName": "Lothian Buses",
+				"agencyUrl": "https://lothianbuses.co.uk",
+				"agencyTimeZoneOffset": 0,
+				"routeColor": "912690",
+				"routeType": 3,
+				"routeId": "1:9748",
+				"routeTextColor": "FFFFFF",
+				"interlineWithPreviousLeg": false,
+				"headsign": "Restalrig",
+				"agencyId": "OP776",
+				"tripId": "1:VJd92f271b759f0bc4b1bff744944eefa0f85abacd",
+				"serviceDate": "20181203",
+				"from": {
+					"name": "Heriot Watt Campus",
+					"stopId": "1:6200200260",
+					"stopCode": "36234874",
+					"lon": -3.31982,
+					"lat": 55.909012,
+					"arrival": 1543825079000,
+					"departure": 1543825080000,
+					"stopIndex": 0,
+					"stopSequence": 0,
+					"vertexType": "TRANSIT"
+				},
+				"to": {
+					"name": "Balgreen Road",
+					"stopId": "1:6200201320",
+					"stopCode": "36232624",
+					"lon": -3.244452,
+					"lat": 55.934258,
+					"arrival": 1543826520000,
+					"departure": 1543826520000,
+					"stopIndex": 14,
+					"stopSequence": 14,
+					"vertexType": "TRANSIT"
+				},
+				"legGeometry": {
+					"points": "ivftIzkgSyFeMck@}TiYeoBiFqd@aCo\\eE{c@yCqS}Iml@yIwT}EkZ[oTyKik@wDiR_HoQ",
+					"length": 15
+				},
+				"routeShortName": "25",
+				"routeLongName": "Craigentinny - Riccarton",
+				"rentedBike": false,
+				"transitLeg": true,
+				"duration": 1440.0,
+				"steps": []
+			}, {
+				"startTime": 1543826520000,
+				"endTime": 1543826541000,
+				"departureDelay": 0,
+				"arrivalDelay": 0,
+				"realTime": false,
+				"distance": 25.244999999999997,
+				"pathway": false,
+				"mode": "WALK",
+				"route": "",
+				"agencyTimeZoneOffset": 0,
+				"interlineWithPreviousLeg": false,
+				"from": {
+					"name": "Balgreen Road",
+					"stopId": "1:6200201320",
+					"stopCode": "36232624",
+					"lon": -3.244452,
+					"lat": 55.934258,
+					"arrival": 1543826520000,
+					"departure": 1543826520000,
+					"stopIndex": 14,
+					"stopSequence": 14,
+					"vertexType": "TRANSIT"
+				},
+				"to": {
+					"name": "Balgreen Road",
+					"stopId": "1:6200248680",
+					"stopCode": "36232682",
+					"lon": -3.244555,
+					"lat": 55.934006,
+					"arrival": 1543826541000,
+					"departure": 1543826580000,
+					"stopIndex": 29,
+					"stopSequence": 29,
+					"vertexType": "TRANSIT"
+				},
+				"legGeometry": {
+					"points": "wsktIdtxRNZPX",
+					"length": 3
+				},
+				"rentedBike": false,
+				"transitLeg": false,
+				"duration": 21.0,
+				"steps": [{
+					"distance": 25.244999999999997,
+					"relativeDirection": "DEPART",
+					"streetName": "Gorgie Road",
+					"absoluteDirection": "SOUTHWEST",
+					"stayOn": false,
+					"area": false,
+					"bogusName": false,
+					"lon": -3.2443482724827324,
+					"lat": 55.93420664435507,
+					"elevation": []
+				}]
+			}, {
+				"startTime": 1543826580000,
+				"endTime": 1543828260000,
+				"departureDelay": 0,
+				"arrivalDelay": 0,
+				"realTime": false,
+				"distance": 4799.531338771019,
+				"pathway": false,
+				"mode": "BUS",
+				"route": "38",
+				"agencyName": "Lothian Buses",
+				"agencyUrl": "https://lothianbuses.co.uk",
+				"agencyTimeZoneOffset": 0,
+				"routeColor": "CAC06A",
+				"routeType": 3,
+				"routeId": "1:10854",
+				"routeTextColor": "000000",
+				"interlineWithPreviousLeg": false,
+				"headsign": "West Granton",
+				"agencyId": "OP776",
+				"tripId": "1:VJ6b1cca500b24ec739c0b8e353e4a5a1597baf64b",
+				"serviceDate": "20181203",
+				"from": {
+					"name": "Balgreen Road",
+					"stopId": "1:6200248680",
+					"stopCode": "36232682",
+					"lon": -3.244555,
+					"lat": 55.934006,
+					"arrival": 1543826541000,
+					"departure": 1543826580000,
+					"stopIndex": 29,
+					"stopSequence": 29,
+					"vertexType": "TRANSIT"
+				},
+				"to": {
+					"name": "Western General Hospital",
+					"stopId": "1:6200245275",
+					"stopCode": "36242979",
+					"lon": -3.233992,
+					"lat": 55.963223,
+					"arrival": 1543828260000,
+					"departure": 1543828261000,
+					"stopIndex": 50,
+					"stopSequence": 50,
+					"vertexType": "TRANSIT"
+				},
+				"legGeometry": {
+					"points": "orktInuxRuCtK_QjQkFfJ}Bd@cNt@qGU}QsGaBsOqH|AyLjHa@}P}DcOwZnBoAoFeCkKlB{T{BeWeEgc@kJJwJzNkG|Q",
+					"length": 22
+				},
+				"routeShortName": "38",
+				"routeLongName": "Granton - Edinburgh Royal Infirmary",
+				"rentedBike": false,
+				"transitLeg": true,
+				"duration": 1680.0,
+				"steps": []
+			}, {
+				"startTime": 1543828261000,
+				"endTime": 1543828273000,
+				"departureDelay": 0,
+				"arrivalDelay": 0,
+				"realTime": false,
+				"distance": 15.847,
+				"pathway": false,
+				"mode": "WALK",
+				"route": "",
+				"agencyTimeZoneOffset": 0,
+				"interlineWithPreviousLeg": false,
+				"from": {
+					"name": "Western General Hospital",
+					"stopId": "1:6200245275",
+					"stopCode": "36242979",
+					"lon": -3.233992,
+					"lat": 55.963223,
+					"arrival": 1543828260000,
+					"departure": 1543828261000,
+					"stopIndex": 50,
+					"stopSequence": 50,
+					"vertexType": "TRANSIT"
+				},
+				"to": {
+					"name": "Destination",
+					"lon": -3.23389,
+					"lat": 55.96309,
+					"arrival": 1543828273000,
+					"orig": "",
+					"vertexType": "NORMAL"
+				},
+				"legGeometry": {
+					"points": "eiqtIrrvRLELC",
+					"length": 3
+				},
+				"rentedBike": false,
+				"transitLeg": false,
+				"duration": 12.0,
+				"steps": [{
+					"distance": 15.847,
+					"relativeDirection": "DEPART",
+					"streetName": "service road",
+					"absoluteDirection": "SOUTH",
+					"stayOn": false,
+					"area": false,
+					"bogusName": false,
+					"lon": -3.2338532194323943,
+					"lat": 55.96323877550879,
+					"elevation": []
+				}]
+			}],
+			"tooSloped": false
+		}, {
+			"duration": 3200,
+			"startTime": 1543826273000,
+			"endTime": 1543829473000,
+			"walkTime": 21,
+			"transitTime": 2880,
+			"waitingTime": 299,
+			"walkDistance": 24.32,
+			"walkLimitExceeded": false,
+			"elevationLost": 0.0,
+			"elevationGained": 0.0,
+			"transfers": 1,
+			"legs": [{
+				"startTime": 1543826273000,
+				"endTime": 1543826279000,
+				"departureDelay": 0,
+				"arrivalDelay": 0,
+				"realTime": false,
+				"distance": 7.558,
+				"pathway": false,
+				"mode": "WALK",
+				"route": "",
+				"agencyTimeZoneOffset": 0,
+				"interlineWithPreviousLeg": false,
+				"from": {
+					"name": "Origin",
+					"lon": -3.31984,
+					"lat": 55.90909,
+					"departure": 1543826273000,
+					"orig": "",
+					"vertexType": "NORMAL"
+				},
+				"to": {
+					"name": "Heriot Watt Campus",
+					"stopId": "1:6200200260",
+					"stopCode": "36234874",
+					"lon": -3.31982,
+					"lat": 55.909012,
+					"arrival": 1543826279000,
+					"departure": 1543826280000,
+					"stopIndex": 0,
+					"stopSequence": 0,
+					"vertexType": "TRANSIT"
+				},
+				"legGeometry": {
+					"points": "wvftI|kgSD?BG",
+					"length": 3
+				},
+				"rentedBike": false,
+				"transitLeg": false,
+				"duration": 6.0,
+				"steps": [{
+					"distance": 7.558,
+					"relativeDirection": "DEPART",
+					"streetName": "The Avenue",
+					"absoluteDirection": "SOUTH",
+					"stayOn": false,
+					"area": false,
+					"bogusName": false,
+					"lon": -3.3198252709572924,
+					"lat": 55.9090899004859,
+					"elevation": []
+				}]
+			}, {
+				"startTime": 1543826280000,
+				"endTime": 1543827840000,
+				"departureDelay": 0,
+				"arrivalDelay": 0,
+				"realTime": false,
+				"distance": 6143.698932716324,
+				"pathway": false,
+				"mode": "BUS",
+				"route": "25",
+				"agencyName": "Lothian Buses",
+				"agencyUrl": "https://lothianbuses.co.uk",
+				"agencyTimeZoneOffset": 0,
+				"routeColor": "912690",
+				"routeType": 3,
+				"routeId": "1:9748",
+				"routeTextColor": "FFFFFF",
+				"interlineWithPreviousLeg": false,
+				"headsign": "Restalrig",
+				"agencyId": "OP776",
+				"tripId": "1:VJb1e7345d47d652aee0c74288bd86979542745075",
+				"serviceDate": "20181203",
+				"from": {
+					"name": "Heriot Watt Campus",
+					"stopId": "1:6200200260",
+					"stopCode": "36234874",
+					"lon": -3.31982,
+					"lat": 55.909012,
+					"arrival": 1543826279000,
+					"departure": 1543826280000,
+					"stopIndex": 0,
+					"stopSequence": 0,
+					"vertexType": "TRANSIT"
+				},
+				"to": {
+					"name": "Gorgie Park Road",
+					"stopId": "1:6200201330",
+					"stopCode": "36232625",
+					"lon": -3.240328,
+					"lat": 55.936474,
+					"arrival": 1543827840000,
+					"departure": 1543827840000,
+					"stopIndex": 15,
+					"stopSequence": 15,
+					"vertexType": "TRANSIT"
+				},
+				"legGeometry": {
+					"points": "ivftIzkgSyFeMck@}TiYeoBiFqd@aCo\\eE{c@yCqS}Iml@yIwT}EkZ[oTyKik@wDiR_HoQ{LyX",
+					"length": 16
+				},
+				"routeShortName": "25",
+				"routeLongName": "Craigentinny - Riccarton",
+				"rentedBike": false,
+				"transitLeg": true,
+				"duration": 1560.0,
+				"steps": []
+			}, {
+				"startTime": 1543827840000,
+				"endTime": 1543827843000,
+				"departureDelay": 0,
+				"arrivalDelay": 0,
+				"realTime": false,
+				"distance": 0.915,
+				"pathway": false,
+				"mode": "WALK",
+				"route": "",
+				"agencyTimeZoneOffset": 0,
+				"interlineWithPreviousLeg": false,
+				"from": {
+					"name": "Gorgie Park Road",
+					"stopId": "1:6200201330",
+					"stopCode": "36232625",
+					"lon": -3.240328,
+					"lat": 55.936474,
+					"arrival": 1543827840000,
+					"departure": 1543827840000,
+					"stopIndex": 15,
+					"stopSequence": 15,
+					"vertexType": "TRANSIT"
+				},
+				"to": {
+					"name": "Gorgie Park Road",
+					"stopId": "1:6200248670",
+					"stopCode": "36232679",
+					"lon": -3.240245,
+					"lat": 55.936367,
+					"arrival": 1543827843000,
+					"departure": 1543828140000,
+					"stopIndex": 28,
+					"stopSequence": 28,
+					"vertexType": "TRANSIT"
+				},
+				"legGeometry": {
+					"points": "oaltIxzwR?C",
+					"length": 2
+				},
+				"rentedBike": false,
+				"transitLeg": false,
+				"duration": 3.0,
+				"steps": [{
+					"distance": 0.915,
+					"relativeDirection": "DEPART",
+					"streetName": "Gorgie Road",
+					"absoluteDirection": "EAST",
+					"stayOn": false,
+					"area": false,
+					"bogusName": false,
+					"lon": -3.2402821876236363,
+					"lat": 55.936401275173196,
+					"elevation": []
+				}]
+			}, {
+				"startTime": 1543828140000,
+				"endTime": 1543829460000,
+				"departureDelay": 0,
+				"arrivalDelay": 0,
+				"realTime": false,
+				"distance": 5175.010349652634,
+				"pathway": false,
+				"mode": "BUS",
+				"route": "38",
+				"agencyName": "Lothian Buses",
+				"agencyUrl": "https://lothianbuses.co.uk",
+				"agencyTimeZoneOffset": 0,
+				"routeColor": "CAC06A",
+				"routeType": 3,
+				"routeId": "1:10854",
+				"routeTextColor": "000000",
+				"interlineWithPreviousLeg": false,
+				"headsign": "West Granton",
+				"agencyId": "OP776",
+				"tripId": "1:VJ23255dce02afafdf433d8b4abb6b18838754f1a3",
+				"serviceDate": "20181203",
+				"from": {
+					"name": "Gorgie Park Road",
+					"stopId": "1:6200248670",
+					"stopCode": "36232679",
+					"lon": -3.240245,
+					"lat": 55.936367,
+					"arrival": 1543827843000,
+					"departure": 1543828140000,
+					"stopIndex": 28,
+					"stopSequence": 28,
+					"vertexType": "TRANSIT"
+				},
+				"to": {
+					"name": "Western General Hospital",
+					"stopId": "1:6200245275",
+					"stopCode": "36242979",
+					"lon": -3.233992,
+					"lat": 55.963223,
+					"arrival": 1543829460000,
+					"departure": 1543829461000,
+					"stopIndex": 50,
+					"stopSequence": 50,
+					"vertexType": "TRANSIT"
+				},
+				"legGeometry": {
+					"points": "galtIpzwRvM|YuCtK_QjQkFfJ}Bd@cNt@qGU}QsGaBsOqH|AyLjHa@}P}DcOwZnBoAoFeCkKlB{T{BeWeEgc@kJJwJzNkG|Q",
+					"length": 23
+				},
+				"routeShortName": "38",
+				"routeLongName": "Granton - Edinburgh Royal Infirmary",
+				"rentedBike": false,
+				"transitLeg": true,
+				"duration": 1320.0,
+				"steps": []
+			}, {
+				"startTime": 1543829461000,
+				"endTime": 1543829473000,
+				"departureDelay": 0,
+				"arrivalDelay": 0,
+				"realTime": false,
+				"distance": 15.847,
+				"pathway": false,
+				"mode": "WALK",
+				"route": "",
+				"agencyTimeZoneOffset": 0,
+				"interlineWithPreviousLeg": false,
+				"from": {
+					"name": "Western General Hospital",
+					"stopId": "1:6200245275",
+					"stopCode": "36242979",
+					"lon": -3.233992,
+					"lat": 55.963223,
+					"arrival": 1543829460000,
+					"departure": 1543829461000,
+					"stopIndex": 50,
+					"stopSequence": 50,
+					"vertexType": "TRANSIT"
+				},
+				"to": {
+					"name": "Destination",
+					"lon": -3.23389,
+					"lat": 55.96309,
+					"arrival": 1543829473000,
+					"orig": "",
+					"vertexType": "NORMAL"
+				},
+				"legGeometry": {
+					"points": "eiqtIrrvRLELC",
+					"length": 3
+				},
+				"rentedBike": false,
+				"transitLeg": false,
+				"duration": 12.0,
+				"steps": [{
+					"distance": 15.847,
+					"relativeDirection": "DEPART",
+					"streetName": "service road",
+					"absoluteDirection": "SOUTH",
+					"stayOn": false,
+					"area": false,
+					"bogusName": false,
+					"lon": -3.2338532194323943,
+					"lat": 55.96323877550879,
+					"elevation": []
+				}]
+			}],
+			"tooSloped": false
+		}]
+	},
+	"debugOutput": {
+		"precalculationTime": 322,
+		"pathCalculationTime": 251,
+		"pathTimes": [107, 55, 89],
+		"renderingTime": 2,
+		"totalTime": 575,
+		"timedOut": false
+	},
+	"elevationMetadata": {
+		"ellipsoidToGeoidDifference": 50.68738086990642,
+		"geoidElevation": false
+	}
+}

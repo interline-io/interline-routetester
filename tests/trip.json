@@ -1,0 +1,41 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -3.31984,
+              55.90909
+            ],
+            [
+              -3.23389,
+              55.96309
+            ]
+          ]
+        },
+        "type": "Feature",
+        "properties": {
+          "name": "Test trip",
+          "httpStatusCode": 200,
+          "minDuration": 3000.0,
+          "maxDuration": 3100.0,
+          "minOverallDistance": 10000,
+          "maxOverallDistance": 12000,
+          "minWalkingDistance": 300,
+          "maxWalkingDistance": 400,
+          "minTransitLegs": 2,
+          "maxTransitLegs": 4,
+          "includesRoute": "25,47",
+          "excludesRoute": "C,D",
+          "includesStop": "West Woods,Heriot Watt Campus",
+          "excludesStop": "Y,Z",
+          "includesAgency": "Lothian Buses",
+          "excludesAgency": "Helicopter,Ferry",
+          "includesTrip": "1:VJ8181966ca170f6c376764b024a53084d1079791a",
+          "excludesTrip": "bar"
+        }
+      }
+    ]
+}

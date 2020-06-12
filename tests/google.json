@@ -1,0 +1,371 @@
+{
+	"geocoded_waypoints": [{
+			"geocoder_status": "OK",
+			"place_id": "ChIJA1KIqga4h0gReqrwkSnvB70",
+			"types": ["premise"]
+		},
+		{
+			"geocoder_status": "OK",
+			"place_id": "ChIJUdj9P8rAh0gRNn2oFMk7K88",
+			"types": [
+				"bus_station",
+				"establishment",
+				"point_of_interest",
+				"transit_station"
+			]
+		}
+	],
+	"routes": [{
+		"bounds": {
+			"northeast": {
+				"lat": 55.978207,
+				"lng": -3.170637
+			},
+			"southwest": {
+				"lat": 55.8901318,
+				"lng": -3.21343
+			}
+		},
+		"copyrights": "Map data ©2018 Google",
+		"legs": [{
+			"arrival_time": {
+				"text": "9:14am",
+				"time_zone": "Europe/London",
+				"value": 1544433248
+			},
+			"departure_time": {
+				"text": "8:03am",
+				"time_zone": "Europe/London",
+				"value": 1544429018
+			},
+			"distance": {
+				"text": "11.4 km",
+				"value": 11368
+			},
+			"duration": {
+				"text": "1 hour 11 mins",
+				"value": 4230
+			},
+			"end_address": "Snowsports Centre, Edinburgh EH10 7DU, UK",
+			"end_location": {
+				"lat": 55.8901318,
+				"lng": -3.2012984
+			},
+			"start_address": "Victoria Quay, Edinburgh EH6 6QQ, UK",
+			"start_location": {
+				"lat": 55.978207,
+				"lng": -3.1737997
+			},
+			"steps": [{
+					"distance": {
+						"text": "0.1 km",
+						"value": 120
+					},
+					"duration": {
+						"text": "1 min",
+						"value": 82
+					},
+					"end_location": {
+						"lat": 55.9771911,
+						"lng": -3.1743056
+					},
+					"html_instructions": "Walk to Victoria Quay",
+					"polyline": {
+						"points": "yfttIf{jR?B@BBDD?@ANDH@XHrAj@t@Z"
+					},
+					"start_location": {
+						"lat": 55.978207,
+						"lng": -3.1737997
+					},
+					"steps": [{
+							"distance": {
+								"text": "5 m",
+								"value": 5
+							},
+							"duration": {
+								"text": "1 min",
+								"value": 4
+							},
+							"end_location": {
+								"lat": 55.9781843,
+								"lng": -3.1738727
+							},
+							"html_instructions": "Head \u003cb\u003esouthwest\u003c/b\u003e on \u003cb\u003eVictoria Quay\u003c/b\u003e",
+							"polyline": {
+								"points": "yfttIf{jR?B@BBD"
+							},
+							"start_location": {
+								"lat": 55.978207,
+								"lng": -3.1737997
+							},
+							"travel_mode": "WALKING"
+						},
+						{
+							"distance": {
+								"text": "5 m",
+								"value": 5
+							},
+							"duration": {
+								"text": "1 min",
+								"value": 5
+							},
+							"end_location": {
+								"lat": 55.97814289999999,
+								"lng": -3.1738586
+							},
+							"html_instructions": "Turn \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003eVictoria Quay\u003c/b\u003e",
+							"maneuver": "turn-left",
+							"polyline": {
+								"points": "sfttIt{jRD?@A"
+							},
+							"start_location": {
+								"lat": 55.9781843,
+								"lng": -3.1738727
+							},
+							"travel_mode": "WALKING"
+						},
+						{
+							"distance": {
+								"text": "0.1 km",
+								"value": 110
+							},
+							"duration": {
+								"text": "1 min",
+								"value": 73
+							},
+							"end_location": {
+								"lat": 55.9771911,
+								"lng": -3.1743056
+							},
+							"html_instructions": "Slight \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eCommercial St\u003c/b\u003e",
+							"maneuver": "turn-slight-right",
+							"polyline": {
+								"points": "kfttIr{jRNDH@XHrAj@t@Z"
+							},
+							"start_location": {
+								"lat": 55.97814289999999,
+								"lng": -3.1738586
+							},
+							"travel_mode": "WALKING"
+						}
+					],
+					"travel_mode": "WALKING"
+				},
+				{
+					"distance": {
+						"text": "3.2 km",
+						"value": 3219
+					},
+					"duration": {
+						"text": "19 mins",
+						"value": 1140
+					},
+					"end_location": {
+						"lat": 55.9530141,
+						"lng": -3.1904427
+					},
+					"html_instructions": "Bus towards Gyle Centre",
+					"polyline": {
+						"points": "m`ttIl~jR`C}UbHnBrFrHfKZxCe@|EyBlNxLdMtJvNvNpD|ElRrW|b@|h@"
+					},
+					"start_location": {
+						"lat": 55.977192,
+						"lng": -3.174311
+					},
+					"transit_details": {
+						"arrival_stop": {
+							"location": {
+								"lat": 55.9530141,
+								"lng": -3.1904427
+							},
+							"name": "Princes Street (Stop PP)"
+						},
+						"arrival_time": {
+							"text": "8:24am",
+							"time_zone": "Europe/London",
+							"value": 1544430240
+						},
+						"departure_stop": {
+							"location": {
+								"lat": 55.977192,
+								"lng": -3.174311
+							},
+							"name": "Victoria Quay"
+						},
+						"departure_time": {
+							"text": "8:05am",
+							"time_zone": "Europe/London",
+							"value": 1544429100
+						},
+						"headsign": "Gyle Centre",
+						"line": {
+							"agencies": [{
+								"name": "Lothian Buses",
+								"url": "https://lothianbuses.co.uk/"
+							}],
+							"color": "#ed4398",
+							"name": "North Leith - South Gyle",
+							"short_name": "22",
+							"text_color": "#ffffff",
+							"vehicle": {
+								"icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+								"name": "Bus",
+								"type": "BUS"
+							}
+						},
+						"num_stops": 12
+					},
+					"travel_mode": "TRANSIT"
+				},
+				{
+					"distance": {
+						"text": "7.8 km",
+						"value": 7768
+					},
+					"duration": {
+						"text": "38 mins",
+						"value": 2280
+					},
+					"end_location": {
+						"lat": 55.8922403,
+						"lng": -3.2010813
+					},
+					"html_instructions": "Bus towards Penicuik (Deanburn)",
+					"polyline": {
+						"points": "iiotIfcnRhCfW`Glm@lJd]dLyCdKiCzNqItFUlN`HtNbT|GrJrSYxP{A~Rc@`SvIbIxDtLfEbFd@hLv@tNLhIyGbKuLfPcInPkKpGsGlQ{D`JkAh`@iN"
+					},
+					"start_location": {
+						"lat": 55.9530141,
+						"lng": -3.1904427
+					},
+					"transit_details": {
+						"arrival_stop": {
+							"location": {
+								"lat": 55.8922403,
+								"lng": -3.2010813
+							},
+							"name": "Snowsports Centre"
+						},
+						"arrival_time": {
+							"text": "9:10am",
+							"time_zone": "Europe/London",
+							"value": 1544433000
+						},
+						"departure_stop": {
+							"location": {
+								"lat": 55.9530141,
+								"lng": -3.1904427
+							},
+							"name": "Princes Street (Stop PP)"
+						},
+						"departure_time": {
+							"text": "8:32am",
+							"time_zone": "Europe/London",
+							"value": 1544430720
+						},
+						"headsign": "Penicuik (Deanburn)",
+						"line": {
+							"agencies": [{
+								"name": "Lothian Buses",
+								"url": "https://lothianbuses.co.uk/"
+							}],
+							"color": "#92896c",
+							"name": "Restalrig - Deanburn",
+							"short_name": "15",
+							"text_color": "#000000",
+							"vehicle": {
+								"icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+								"name": "Bus",
+								"type": "BUS"
+							}
+						},
+						"num_stops": 27
+					},
+					"travel_mode": "TRANSIT"
+				},
+				{
+					"distance": {
+						"text": "0.3 km",
+						"value": 261
+					},
+					"duration": {
+						"text": "4 mins",
+						"value": 213
+					},
+					"end_location": {
+						"lat": 55.8901318,
+						"lng": -3.2012984
+					},
+					"html_instructions": "Walk to Snowsports Centre, Edinburgh EH10 7DU, UK",
+					"polyline": {
+						"points": "kmctIrfpRp@Uj@Qz@Qx@E`@AN?VAN?b@AXELCHEHGDf@@N@JBLDZ"
+					},
+					"start_location": {
+						"lat": 55.892222,
+						"lng": -3.2012164
+					},
+					"steps": [{
+							"distance": {
+								"text": "0.2 km",
+								"value": 225
+							},
+							"duration": {
+								"text": "3 mins",
+								"value": 171
+							},
+							"end_location": {
+								"lat": 55.8902271,
+								"lng": -3.2007524
+							},
+							"html_instructions": "Head \u003cb\u003esouth\u003c/b\u003e on \u003cb\u003eBiggar Rd\u003c/b\u003e/\u003cb\u003eA702\u003c/b\u003e",
+							"polyline": {
+								"points": "kmctIrfpRp@Uj@Qz@Qx@E`@AN?VAN?b@AXELCHEHG"
+							},
+							"start_location": {
+								"lat": 55.892222,
+								"lng": -3.2012164
+							},
+							"travel_mode": "WALKING"
+						},
+						{
+							"distance": {
+								"text": "36 m",
+								"value": 36
+							},
+							"duration": {
+								"text": "1 min",
+								"value": 42
+							},
+							"end_location": {
+								"lat": 55.8901318,
+								"lng": -3.2012984
+							},
+							"html_instructions": "Turn \u003cb\u003eright\u003c/b\u003e",
+							"maneuver": "turn-right",
+							"polyline": {
+								"points": "}`ctItcpRDf@@N@JBLDZ"
+							},
+							"start_location": {
+								"lat": 55.8902271,
+								"lng": -3.2007524
+							},
+							"travel_mode": "WALKING"
+						}
+					],
+					"travel_mode": "WALKING"
+				}
+			],
+			"traffic_speed_entry": [],
+			"via_waypoint": []
+		}],
+		"overview_polyline": {
+			"points": "yfttIf{jR@FBDD?PBb@JhCfA`C}UbHnBrFrHfKZxCe@|EyBlNxLdMtJvNvN~Wp^|b@|h@hCfW`Glm@lJd]jXcHzNqItFUlN`HtNbT|GrJrSYxP{A~Rc@`SvIbIxDtLfEbFd@hLv@tNLhIyGbKuLfPcInPkKpGsGlQ{D`JkAh`@iNBZp@UfBc@zAGzACf@IRMLpADZ"
+		},
+		"summary": "",
+		"warnings": [
+			"Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths."
+		],
+		"waypoint_order": []
+	}],
+	"status": "OK"
+}
