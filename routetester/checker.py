@@ -48,7 +48,7 @@ class ResponseSet(object):
         }
 
 class Checker(object):
-    def __init__(self, host=None, request_cls=None, request_factories=None, when=None, whentz=None, count=1):
+    def __init__(self, host=None, request_cls=None, request_factories=None, when=None, whentz=None, params=None, count=1):
         self.host = host
         self.request_factories = request_factories or []
         if host and request_cls:
@@ -58,6 +58,7 @@ class Checker(object):
         self.count = count
         self.when = when
         self.whentz = whentz
+        self.params = params
 
     def load(self, testfile):
         with open(testfile) as f:
@@ -76,7 +77,7 @@ class Checker(object):
             for f in self.request_factories:
                 for _ in range(self.count):
                     request = f()
-                    response = request.request(trip)
+                    response = request.request(trip, params=self.params)
                     response.errors += TripMatcher().check(trip, response)
                     logging.info("%s -> %s"%(response.url, response.status_code))
                     self.rsets[trip].add_response(response)

@@ -31,7 +31,7 @@ class ValhallaRequest(Request):
 
     def request(self, trip, params=None):
         url = self.url(trip, params=params)
-        urlsigned = "%s&key=%s"%(url, API_KEY)
+        urlsigned = "%s&api_key=%s"%(url, API_KEY)
         t = 0.0
         errors = []
         data = {}

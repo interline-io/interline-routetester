@@ -18,6 +18,7 @@ def main():
     parser.add_argument('--debug', help='Print debug information', action='store_true')
     parser.add_argument('-o', '--out', help='Save GeoJSON output to file')
     parser.add_argument('-c', '--count', help='Run each test n times', default=1, type=int)
+    parser.add_argument('-p', '--param', help='Add or override request parameter; example -p costing=auto', action='append')
     parser.add_argument('url', help='Test endpoint')
     parser.add_argument('testfiles', nargs='+', help='Test GeoJSON input file')
     args = parser.parse_args()
@@ -28,6 +29,14 @@ def main():
         print("Unknown planner: %s"%args.mode)
         sys.exit(1)
 
+    # Check params
+    params = None
+    if args.param:
+        params = {}
+        for p in args.param:
+            key, _, value = p.partition("=")
+            params[key] = value
+
     # Set log level
     level = logging.WARNING
     if args.debug:
@@ -37,7 +46,7 @@ def main():
     logging.basicConfig(format='%(message)s', level=level)
 
     # Run checker
-    checker = Checker(args.url, request_cls, when=args.when, whentz=args.whentz, count=args.count)
+    checker = Checker(args.url, request_cls, when=args.when, whentz=args.whentz, count=args.count, params=params)
     for filename in args.testfiles:
         checker.load(filename)
     checker.run()
