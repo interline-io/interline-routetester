@@ -2,6 +2,9 @@ import json
 import sys
 import argparse
 import logging
+import requests
+import os
+import urllib
 
 from .request import Request
 from .checker import Checker
@@ -19,6 +22,7 @@ def main():
     parser.add_argument('-o', '--out', help='Save GeoJSON output to file')
     parser.add_argument('-c', '--count', help='Run each test n times', default=1, type=int)
     parser.add_argument('-p', '--param', help='Add or override request parameter; example -p costing=auto', action='append')
+    parser.add_argument('--map-url', action='store_true', help='Link to open results on geojson.io')
     parser.add_argument('url', help='Test endpoint')
     parser.add_argument('testfiles', nargs='+', help='Test GeoJSON input file')
     args = parser.parse_args()
@@ -51,9 +55,16 @@ def main():
         checker.load(filename)
     checker.run()
 
+    fc = checker.result_geojson()
+
+    # link to geojson.io
+    if args.map_url:
+        encodedGeoJson = urllib.parse.quote(json.dumps(fc))
+        fc["geojson_io_url"] = f"http://geojson.io/#data=data:application/json,{encodedGeoJson}"
+        print(fc["geojson_io_url"])
+
     # Write geojson output
     if args.out:
-        fc = checker.result_geojson()
         with open(args.out, 'w') as f:
             json.dump(fc, f)
 
