@@ -29,7 +29,7 @@ class OTPRequest(Request):
         }
         if params:
             q.update(params)
-        url = "%s/otp/routers/default/plan?%s"%(self.host, urlencode(q))
+        url = "%s/plan?%s"%(self.host, urlencode(q))
         return url
 
     def request(self, trip, params=None):
